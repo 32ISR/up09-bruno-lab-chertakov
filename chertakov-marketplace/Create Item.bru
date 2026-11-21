@@ -1,0 +1,20 @@
+meta {
+  name: Create Item
+  type: http
+  seq: 7
+}
+
+post {
+  url: https://api.kitek-pg.ru/api/marketplace/items
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "title": "Ипхон Про супер мини мега гипер x99 huanan",
+    "description": "Оригинал точно",
+    "price": 8000,
+    "imageUrl": "https://example.com/iphine.jpg"
+  }
+}
